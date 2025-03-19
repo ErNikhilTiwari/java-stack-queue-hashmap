@@ -1,7 +1,7 @@
 public class CircularTour {
     public static int findStartingPoint(int[] petrol, int[] distance) {
         int n = petrol.length;
-        int start = 0; // Starting point (let's hope it works!)
+        int start = 0; // Starting point
         int totalPetrol = 0; // Total petrol in the tank
         int currentPetrol = 0; // Petrol in the current tour
 
