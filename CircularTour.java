@@ -9,7 +9,7 @@ public class CircularTour {
             totalPetrol += petrol[i] - distance[i]; // Calculate total petrol
             currentPetrol += petrol[i] - distance[i]; // Calculate current petrol
             if (currentPetrol < 0) {
-                // Oops, we ran out of petrol! Start from the next pump.
+                
                 start = i + 1;
                 currentPetrol = 0; // Reset the current petrol
             }
